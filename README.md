@@ -1,1 +1,1 @@
-# Awesome-Sign-Language-Processing-SLP-
+# Awesome-Sign-Language-Processing-SLP
