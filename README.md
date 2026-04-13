@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/6765457898765.png" alt="Awesome Sign-Language Processing Banner" width="900"/>
+<img src="assets/banner.svg" alt="Awesome Sign-Language Processing Banner" width="100%"/>
 
 <br/>
 <br/>

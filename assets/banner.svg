@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05142a"/>
+      <stop offset="50%" stop-color="#114b46"/>
+      <stop offset="100%" stop-color="#081d36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#3bdfb3" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#3bdfb3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" />
+  <circle cx="600" cy="200" r="600" fill="url(#glow)" />
+  
+  <!-- Subtle decorative elements representing tech/data/SLP -->
+  <!-- Hand silhouette placeholder abstract shapes / nodes / networks -->
+  <g stroke="#ffffff" stroke-opacity="0.06" stroke-width="2" fill="none">
+    <circle cx="180" cy="120" r="50"/>
+    <circle cx="180" cy="120" r="30"/>
+    <circle cx="1020" cy="280" r="80"/>
+    <circle cx="1020" cy="280" r="50"/>
+    <circle cx="1050" cy="90" r="40"/>
+    <path d="M 0 300 Q 300 150 600 300 T 1200 300" stroke="#3bdfb3" stroke-width="3" stroke-opacity="0.08" />
+    <path d="M 0 340 Q 300 190 600 340 T 1200 340" stroke="#3bdfb3" stroke-width="1.5" stroke-opacity="0.04" />
+  </g>
+
+  <!-- Connection Nodes (Neural Network feel for Models/Data) -->
+  <g fill="#ffffff" fill-opacity="0.08">
+    <circle cx="180" cy="120" r="4" />
+    <circle cx="130" cy="90" r="3" />
+    <line x1="180" y1="120" x2="130" y2="90" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+    <circle cx="210" cy="80" r="3" />
+    <line x1="180" y1="120" x2="210" y2="80" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+    
+    <circle cx="1020" cy="280" r="4" />
+    <circle cx="1080" cy="250" r="3" />
+    <circle cx="980" cy="240" r="3" />
+    <line x1="1020" y1="280" x2="1080" y2="250" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+    <line x1="1020" y1="280" x2="980" y2="240" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  </g>
+
+  <!-- Arabic Text -->
+  <text x="600" y="115" font-family="'Segoe UI', Tahoma, Cairo, Arial, sans-serif" font-size="30" font-weight="700" fill="#f5d36e" text-anchor="middle" letter-spacing="2">معالجة لغة الإشارة</text>
+
+  <!-- Main Title -->
+  <text x="600" y="190" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#ffffff" text-anchor="middle" filter="url(#text-glow)">Awesome Sign-Language Processing (SLP)</text>
+  <text x="600" y="190" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#ffffff" text-anchor="middle">Awesome Sign-Language Processing (SLP)</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="250" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="20" font-weight="400" fill="#d1e8e2" text-anchor="middle">The most comprehensive, up-to-date collection of Sign-Language Processing resources on the internet.</text>
+
+  <!-- Pills Background Area -->
+  <rect x="170" y="295" width="860" height="48" rx="24" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1" />
+
+  <!-- Pills Text Items -->
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#e0fbfc" text-anchor="middle">
+    <text x="256" y="325">🤖 Models</text>
+    <text x="428" y="325">💾 Datasets</text>
+    <text x="600" y="325">🛠️ Tools</text>
+    <text x="772" y="325">📄 Research</text>
+    <text x="944" y="325">🏛️ Organizations</text>
+  </g>
+</svg>
