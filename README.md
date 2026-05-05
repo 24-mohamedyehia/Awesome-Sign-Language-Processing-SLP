@@ -491,6 +491,7 @@ Make the list feel like a working index for researchers and builders rather than
 | Company | Category | Focus | Notable Products | Link |
 |:---|:---|:---|:---|:---:|
 | Mind Rockets Inc | Assistive Tech / AI | Sign Language Avatars & Accessibility Tools | Sign Language Interpreting Avatars, Accessibility Toolbar | [Link](https://main.mindrocketsinc.com/) |
+| Hand Talk | Assistive Tech / AI | Automatic Sign Language Translation | Hand Talk App, Hand Talk Plugin | [Link](https://www.handtalk.me/) |
 
 ---
 
