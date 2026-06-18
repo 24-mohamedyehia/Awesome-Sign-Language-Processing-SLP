@@ -12,36 +12,6 @@ Models · Datasets · Tools · Research · Companies
 
 ---
 
-## ✦ Project Identity
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-**Focus**
-
-Sign-language processing across recognition, translation, synthesis, retrieval, pose, and deployment.
-
-</td>
-<td width="33%" valign="top">
-
-**Style**
-
-Minimal filler, clear task boundaries, and tables that are ready for fast curation.
-
-</td>
-<td width="33%" valign="top">
-
-**Goal**
-
-Make the list feel like a working index for researchers and builders rather than a static catalog.
-
-</td>
-</tr>
-</table>
-
----
-
 ## 📑 Table of Contents
 
 <table>
@@ -77,37 +47,17 @@ Make the list feel like a working index for researchers and builders rather than
 </tr>
 </table>
 
----
-
-## 🧭 How To Read This List
-
-| Signal | Meaning | What to add later |
-|:---|:---|:---|
-| Task | The core problem the resource solves | Recognition, translation, synthesis, retrieval, or tooling |
-| Modality | The input or output form | Video, pose, text, gloss, avatar, or multimodal |
-| Maturity | How ready the resource is | Paper, code, dataset, benchmark, demo, or product |
-
----
-
-## 🧱 Editing Rules
-
-| Rule | Why it exists |
-|:---|:---|
-| Keep one resource per row | Makes scanning and updates faster |
-| Group by task first | Sign-language work is task-driven, not name-driven |
-| Keep titles short | Prevents the page from becoming noisy |
-| Add links only when verified | Keeps the list clean and credible |
-
----
 
 ## 🏢 Key Organizations
 
-> Research labs, universities, community groups, and companies shaping Sign-Language Processing.
+> Research labs, universities, community groups, shaping Sign-Language Processing.
 
 
 | Organization | Category | Focus | Key Contributions | Link |
 |:---|:---|:---|:---|:---:|
-| TBD | TBD | TBD | TBD | TBD |
+| AraSLP Lab | Research Lab | Arabic sign language technologies | Research in recognition, translation, and generation; builds annotated datasets, robust recognition models, and end-to-end translation frameworks | [Site](https://hamzah-luqman.github.io/AraSLP/index.html) |
+| World Federation of the Deaf | Global Advocacy Organization | Deaf rights and sign language access | International federation advocating for equal rights, accessibility, legal recognition, and sign language use worldwide | [Site](https://wfdeaf.org/) |
+
 
 ---
 
@@ -190,6 +140,7 @@ Make the list feel like a working index for researchers and builders rather than
 | Tool / Library | Category | Use Case | Platform | Link |
 |:---|:---|:---|:---|:---:|
 | react-pose-viewer | Pose visualization | View and inspect pose sequences | Web | [Code](https://github.com/bipinkrish/react-pose-viewer) |
+| pose-format | Pose processing | File format and toolkit for reading, writing, normalizing, augmenting, visualizing, and importing pose data | Python / JavaScript | [Code](https://github.com/sign-language-processing/pose) |
 | pose-dart | Pose processing | Work with pose data | Dart | [Code](https://github.com/bipinkrish/pose-dart) |
 | vscode-pose | VS Code extension | Pose-related editing workflow | VS Code | [Code](https://github.com/bipinkrish/vscode-pose) |
 | multimodalhugs | Multimodal tooling | Multimodal experimentation | Unknown | [Code](https://github.com/GerrySant/multimodalhugs) |
@@ -462,7 +413,7 @@ Make the list feel like a working index for researchers and builders rather than
 | signwriting-flutter | Library | SignWriting notation | Flutter apps and rendering | [Code](https://github.com/bipinkrish/signwriting-flutter) |
 | signwriting-dart | Library | SignWriting notation | Dart apps and rendering | [Code](https://github.com/bipinkrish/signwriting-dart) |
 
----
+<!-- ---
 
 ## 🎓 Tutorials & Learning Resources
 
@@ -470,9 +421,9 @@ Make the list feel like a working index for researchers and builders rather than
 
 | Resource | Format | Topic | Audience | Link |
 |:---|:---|:---|:---|:---:|
-| TBD | TBD | TBD | TBD | TBD |
+| TBD | TBD | TBD | TBD | TBD | -->
 
----
+<!-- ---
 
 ## 🏛️ Research Institutions
 
@@ -480,7 +431,7 @@ Make the list feel like a working index for researchers and builders rather than
 
 | Institution | Type | Country / Region | Focus | Link |
 |:---|:---|:---|:---|:---:|
-| TBD | TBD | TBD | TBD | TBD |
+| TBD | TBD | TBD | TBD | TBD | -->
 
 ---
 
@@ -492,26 +443,6 @@ Make the list feel like a working index for researchers and builders rather than
 |:---|:---|:---|:---|:---:|
 | Mind Rockets Inc | Assistive Tech / AI | Sign Language Avatars & Accessibility Tools | Sign Language Interpreting Avatars, Accessibility Toolbar | [Link](https://main.mindrocketsinc.com/) |
 | Hand Talk | Assistive Tech / AI | Automatic Sign Language Translation | Hand Talk App, Hand Talk Plugin | [Link](https://www.handtalk.me/) |
-
----
-
-## 🌍 Learning Resources by Language
-
-> Resources grouped by sign language and spoken language coverage.
-
-| Language / Variant | Resource Type | Focus | Notes | Link |
-|:---|:---|:---|:---|:---:|
-| TBD | TBD | TBD | TBD | TBD |
-
----
-
-## 📱 Edge & Mobile Deployment
-
-> Lightweight pipelines, on-device inference, and mobile-first sign-language experiences.
-
-| Project / Tool | Platform | Deployment Target | Use Case | Link |
-|:---|:---|:---|:---|:---:|
-| TBD | TBD | TBD | TBD | TBD |
 
 ---
 
